@@ -1,3 +1,17 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import streamlit as st
+
+# Load the data
+file_path = 'dataset.csv'
+df = pd.read_csv("C:/Users/Jamil Shaikh/Desktop/dataset.csv")
+
+# Visualize categorical variables using bar charts
+categorical_variables = ['Application mode', 'Course', 'Previous qualification',
+                          'Educational special needs', 'Scholarship holder', 'Target']
+
+# Streamlit setup
 st.title('Distribution of Categorical Variables')
 
 # Plot bar charts for each categorical variable
