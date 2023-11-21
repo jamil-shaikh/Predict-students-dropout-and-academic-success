@@ -7,6 +7,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import streamlit as st
 
 # Load the data
 file_path = 'dataset.csv'
@@ -29,10 +30,6 @@ plt.show()
 # In[21]:
 
 
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import streamlit as st
 
 # Load the data
 file_path = 'dataset.csv'
