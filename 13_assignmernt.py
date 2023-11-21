@@ -5,7 +5,7 @@ import streamlit as st
 
 # Load the data
 file_path = 'dataset.csv'
-df = pd.read_csv("C:/Users/Jamil Shaikh/Desktop/dataset.csv")
+df = pd.read_csv("dataset.csv")
 
 # Visualize categorical variables using bar charts
 categorical_variables = ['Application mode', 'Course', 'Previous qualification',
