@@ -25,7 +25,6 @@ from sklearn.metrics import precision_score, recall_score, accuracy_score, f1_sc
 # In[2]:
 
 
-get_ipython().run_line_magic('pip', 'install scikit-learn')
 
 
 # In[ ]:
